@@ -1,3 +1,4 @@
+
 # Python virtual environments
 venv/
 .venv/
@@ -7,18 +8,28 @@ venv/
 .env.*
 !.env.example
 
-# Python cache
+# Python cache and notebooks
 __pycache__/
 *.py[cod]
+.ipynb_checkpoints/
 
 # Testing and coverage
 .pytest_cache/
 .coverage
 htmlcov/
 
-# IDE settings
+# IDE and editor settings
 .vscode/
+.idea/
 
-# OS files
+# Operating system files
 .DS_Store
 Thumbs.db
+
+# Downloaded datasets (keep folder structure)
+data/*
+!data/.gitkeep
+!data/download.py
+
+# Temporary downloads
+*.zip
