@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.h   text eol=lf
+*.c   text eol=lf
+*.ino text eol=lf
+*.py  text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
