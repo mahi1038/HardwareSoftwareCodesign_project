@@ -1,0 +1,20 @@
+{
+  "config_id": "M3_w128_r50_fp32",
+  "model": "M3",
+  "window": "w128",
+  "rate": "r50",
+  "precision": "fp32",
+  "n_features": 24,
+  "accuracy": 0.845945028842891,
+  "macro_f1": 0.8434026519387197,
+  "accuracy_board100": 0.92,
+  "cv_macro_f1": 0.862775831801158,
+  "best_params": {
+    "mlpclassifier__alpha": 0.1
+  },
+  "seed": 0,
+  "n_train": 7352,
+  "n_test": 2947,
+  "sklearn": "1.6.1",
+  "train_seconds": 10.9
+}

@@ -1,0 +1,20 @@
+{
+  "config_id": "M2_w128_r50_fp32",
+  "model": "M2",
+  "window": "w128",
+  "rate": "r50",
+  "precision": "fp32",
+  "n_features": 24,
+  "accuracy": 0.840176450627757,
+  "macro_f1": 0.8384152400835801,
+  "accuracy_board100": 0.87,
+  "cv_macro_f1": 0.8766766688487596,
+  "best_params": {
+    "logisticregression__C": 0.1
+  },
+  "seed": 0,
+  "n_train": 7352,
+  "n_test": 2947,
+  "sklearn": "1.6.1",
+  "train_seconds": 0.6
+}
