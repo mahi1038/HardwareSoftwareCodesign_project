@@ -1,0 +1,20 @@
+{
+  "config_id": "M4_w64_r50_fp32",
+  "model": "M4",
+  "window": "w64",
+  "rate": "r50",
+  "precision": "fp32",
+  "accuracy": 0.8367831693247371,
+  "macro_f1": 0.8332642480075378,
+  "accuracy_board100": 0.88,
+  "cv_macro_f1": 0.8648078025284981,
+  "best_params": {
+    "max_depth": 16,
+    "min_samples_leaf": 3
+  },
+  "seed": 0,
+  "sklearn": "1.6.1",
+  "param_bytes": 1322573,
+  "linux_only": true,
+  "needs_raw_window": true
+}

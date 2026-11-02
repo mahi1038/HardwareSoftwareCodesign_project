@@ -1,0 +1,17 @@
+{
+  "config_id": "M5_w128_r25_fp32",
+  "model": "M5",
+  "window": "w128",
+  "rate": "r25",
+  "precision": "fp32",
+  "accuracy": 0.8588394977943672,
+  "macro_f1": 0.8586567679967847,
+  "accuracy_board100": 0.85,
+  "cv_macro_f1": 0.9411729882335358,
+  "best_params": "",
+  "seed": 0,
+  "sklearn": "1.6.1",
+  "param_bytes": 14124,
+  "linux_only": true,
+  "needs_raw_window": true
+}

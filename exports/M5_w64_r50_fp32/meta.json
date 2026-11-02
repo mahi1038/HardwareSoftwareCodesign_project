@@ -1,0 +1,17 @@
+{
+  "config_id": "M5_w64_r50_fp32",
+  "model": "M5",
+  "window": "w64",
+  "rate": "r50",
+  "precision": "fp32",
+  "accuracy": 0.8669833729216152,
+  "macro_f1": 0.8672925802847322,
+  "accuracy_board100": 0.83,
+  "cv_macro_f1": 0.9406372389133176,
+  "best_params": "",
+  "seed": 0,
+  "sklearn": "1.6.1",
+  "param_bytes": 14124,
+  "linux_only": true,
+  "needs_raw_window": true
+}

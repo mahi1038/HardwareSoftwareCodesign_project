@@ -1,0 +1,20 @@
+{
+  "config_id": "M4S_w64_r25_fp32",
+  "model": "M4S",
+  "window": "w64",
+  "rate": "r25",
+  "precision": "fp32",
+  "accuracy": 0.7845266372582287,
+  "macro_f1": 0.7824050563928214,
+  "accuracy_board100": 0.82,
+  "cv_macro_f1": 0.8391460743908052,
+  "best_params": {
+    "max_depth": 16,
+    "min_samples_leaf": 3
+  },
+  "seed": 0,
+  "sklearn": "1.6.1",
+  "param_bytes": 1413566,
+  "linux_only": true,
+  "needs_raw_window": false
+}

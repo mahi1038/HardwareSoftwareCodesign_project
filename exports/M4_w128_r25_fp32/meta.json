@@ -1,0 +1,20 @@
+{
+  "config_id": "M4_w128_r25_fp32",
+  "model": "M4",
+  "window": "w128",
+  "rate": "r25",
+  "precision": "fp32",
+  "accuracy": 0.8527315914489311,
+  "macro_f1": 0.8509201175132207,
+  "accuracy_board100": 0.88,
+  "cv_macro_f1": 0.8762112506345046,
+  "best_params": {
+    "max_depth": 16,
+    "min_samples_leaf": 3
+  },
+  "seed": 0,
+  "sklearn": "1.6.1",
+  "param_bytes": 1129566,
+  "linux_only": true,
+  "needs_raw_window": true
+}

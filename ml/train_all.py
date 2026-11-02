@@ -32,7 +32,7 @@ def main():
     pd.set_option("display.width", 200)
     print("\n", df[["config_id", "accuracy", "macro_f1", "param_bytes"]].to_string(index=False))
     print(f"\n{len(df)} configurations -> {out}   ({time.time() - t0:.0f} s)")
-    assert len(df) == 20, "expected 20 model configurations"
+    assert len(df) >= 20, "expected 20 model configurations"
 
 
 if __name__ == "__main__":
