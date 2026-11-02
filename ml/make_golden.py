@@ -12,7 +12,8 @@ GOLD = ROOT / "golden"
 COMMON.mkdir(parents=True, exist_ok=True)
 GOLD.mkdir(exist_ok=True)
 
-SEED, PER_CLASS, N_GOLDEN = 42, 25, 20
+SEED, N_GOLDEN = 42, 20
+COUNTS = [17, 17, 17, 17, 16, 16]          # 100 windows total (board limit, see docs/limitations.md)
 COMBOS = [("w128", "r50"), ("w128", "r25"), ("w64", "r50"), ("w64", "r25")]
 
 
@@ -36,7 +37,7 @@ def win_c(w):                                     # (N,3) -> C initializer
 d = load_har()
 Xq_all, y_all, s_all = quantize(d["Xte"]), d["yte"], d["ste"]
 rng = np.random.default_rng(SEED)
-sel = np.concatenate([rng.choice(np.where(y_all == k)[0], PER_CLASS, replace=False)
+sel = np.concatenate([rng.choice(np.where(y_all == k)[0], COUNTS[k], replace=False)
                       for k in range(6)])
 rng.shuffle(sel)
 Xq, y = Xq_all[sel], y_all[sel]                   # window_idx = position in this list
