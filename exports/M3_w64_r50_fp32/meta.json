@@ -1,0 +1,23 @@
+{
+  "config_id": "M3_w64_r50_fp32",
+  "model": "M3",
+  "window": "w64",
+  "rate": "r50",
+  "precision": "fp32",
+  "n_features": 24,
+  "accuracy": 0.827960637936885,
+  "macro_f1": 0.8250477974548698,
+  "accuracy_board100": 0.88,
+  "cv_macro_f1": 0.8507497807199774,
+  "best_params": {
+    "mlpclassifier__alpha": 0.1
+  },
+  "seed": 0,
+  "n_train": 7352,
+  "n_test": 2947,
+  "sklearn": "1.6.1",
+  "train_seconds": 32.1,
+  "param_bytes": 4184,
+  "header_bytes": 15841,
+  "export_mismatches_vs_sklearn": 0
+}

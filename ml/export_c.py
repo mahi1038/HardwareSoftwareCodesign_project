@@ -211,9 +211,10 @@ def main(window="w128", rate="r50"):
                     export_mismatches_vs_sklearn=mism)
         write(out / "meta.json", json.dumps(meta, indent=2))
 
-    write(ROOT / "golden" / "model_golden_v1.h", golden_h)
-    write(ROOT / "golden" / "model_golden_v1.json",
-          json.dumps({"golden_window_idx": gidx, "models": golden_j}))
+        tag = "" if (window, rate) == ("w128", "r50") else f"_{key}"
+        write(ROOT / "golden" / f"model_golden_v1{tag}.h", golden_h)
+        write(ROOT / "golden" / f"model_golden_v1{tag}.json",
+            json.dumps({"golden_window_idx": gidx, "models": golden_j}))
     print("ALL EXPORT CHECKS PASSED")
 
 

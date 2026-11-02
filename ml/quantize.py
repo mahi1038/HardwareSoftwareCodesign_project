@@ -145,7 +145,8 @@ def main(window="w128", rate="r50"):
         print(f"{cid}: acc {acc:.4f} (fp32 {fp['accuracy']:.4f}, delta {acc - fp['accuracy']:+.4f}) "
               f"macro-F1 {f1:.4f} | agreement with fp32 {agree:.4f} | "
               f"params {nbytes} B vs {fp['param_bytes']} B ({nbytes / fp['param_bytes']:.0%})")
-    write(ROOT / "golden" / "model_golden_int8_v1.h", golden_h)
+        tag = "" if (window, rate) == ("w128", "r50") else f"_{window}_{rate}"
+        write(ROOT / "golden" / f"model_golden_int8_v1{tag}.h", golden_h)
     print("ALL QUANTIZATION STEPS DONE")
 
 

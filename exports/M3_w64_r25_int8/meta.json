@@ -1,0 +1,17 @@
+{
+  "config_id": "M3_w64_r25_int8",
+  "model": "M3",
+  "window": "w64",
+  "rate": "r25",
+  "precision": "int8",
+  "n_features": 24,
+  "accuracy": 0.8194774346793349,
+  "macro_f1": 0.8164438943518664,
+  "accuracy_board100": 0.86,
+  "fp32_accuracy": 0.8187987784187309,
+  "fp32_macro_f1": 0.8156592249987473,
+  "agreement_with_fp32": 0.992195453003054,
+  "param_bytes": 1460,
+  "fp32_param_bytes": 4184,
+  "header_bytes": 7042
+}

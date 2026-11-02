@@ -1,0 +1,24 @@
+{
+  "config_id": "M1_w64_r25_fp32",
+  "model": "M1",
+  "window": "w64",
+  "rate": "r25",
+  "precision": "fp32",
+  "n_features": 24,
+  "accuracy": 0.7631489650492026,
+  "macro_f1": 0.7540268842305046,
+  "accuracy_board100": 0.74,
+  "cv_macro_f1": 0.7847845790593324,
+  "best_params": {
+    "max_depth": 5,
+    "min_samples_leaf": 1
+  },
+  "seed": 0,
+  "n_train": 7352,
+  "n_test": 2947,
+  "sklearn": "1.6.1",
+  "train_seconds": 1.6,
+  "param_bytes": 264,
+  "header_bytes": 2049,
+  "export_mismatches_vs_sklearn": 0
+}

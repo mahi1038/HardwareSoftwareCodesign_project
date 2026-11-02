@@ -1,0 +1,17 @@
+{
+  "config_id": "M2_w64_r25_int8",
+  "model": "M2",
+  "window": "w64",
+  "rate": "r25",
+  "precision": "int8",
+  "n_features": 24,
+  "accuracy": 0.822870715982355,
+  "macro_f1": 0.8194796785898699,
+  "accuracy_board100": 0.85,
+  "fp32_accuracy": 0.8221920597217509,
+  "fp32_macro_f1": 0.8190683535857505,
+  "agreement_with_fp32": 0.995928062436376,
+  "param_bytes": 384,
+  "fp32_param_bytes": 792,
+  "header_bytes": 2585
+}

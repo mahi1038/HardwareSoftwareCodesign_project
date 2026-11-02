@@ -1,0 +1,17 @@
+{
+  "config_id": "M3_w128_r25_int8",
+  "model": "M3",
+  "window": "w128",
+  "rate": "r25",
+  "precision": "int8",
+  "n_features": 24,
+  "accuracy": 0.833050559891415,
+  "macro_f1": 0.8307913868068368,
+  "accuracy_board100": 0.85,
+  "fp32_accuracy": 0.834068544282321,
+  "fp32_macro_f1": 0.831825293347574,
+  "agreement_with_fp32": 0.992195453003054,
+  "param_bytes": 1460,
+  "fp32_param_bytes": 4184,
+  "header_bytes": 7056
+}

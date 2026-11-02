@@ -1,0 +1,23 @@
+{
+  "config_id": "M2_w64_r25_fp32",
+  "model": "M2",
+  "window": "w64",
+  "rate": "r25",
+  "precision": "fp32",
+  "n_features": 24,
+  "accuracy": 0.8221920597217509,
+  "macro_f1": 0.8190683535857505,
+  "accuracy_board100": 0.86,
+  "cv_macro_f1": 0.8589966567951043,
+  "best_params": {
+    "logisticregression__C": 0.1
+  },
+  "seed": 0,
+  "n_train": 7352,
+  "n_test": 2947,
+  "sklearn": "1.6.1",
+  "train_seconds": 2.8,
+  "param_bytes": 792,
+  "header_bytes": 3668,
+  "export_mismatches_vs_sklearn": 0
+}

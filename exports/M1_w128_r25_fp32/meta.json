@@ -1,0 +1,24 @@
+{
+  "config_id": "M1_w128_r25_fp32",
+  "model": "M1",
+  "window": "w128",
+  "rate": "r25",
+  "precision": "fp32",
+  "n_features": 24,
+  "accuracy": 0.7709535120461486,
+  "macro_f1": 0.7669574880852458,
+  "accuracy_board100": 0.75,
+  "cv_macro_f1": 0.7929994682335635,
+  "best_params": {
+    "max_depth": 4,
+    "min_samples_leaf": 1
+  },
+  "seed": 0,
+  "n_train": 7352,
+  "n_test": 2947,
+  "sklearn": "1.6.1",
+  "train_seconds": 6.3,
+  "param_bytes": 136,
+  "header_bytes": 1177,
+  "export_mismatches_vs_sklearn": 0
+}
