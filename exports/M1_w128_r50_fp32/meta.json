@@ -17,5 +17,8 @@
   "n_train": 7352,
   "n_test": 2947,
   "sklearn": "1.6.1",
-  "train_seconds": 4.1
+  "train_seconds": 4.1,
+  "param_bytes": 136,
+  "header_bytes": 1179,
+  "export_mismatches_vs_sklearn": 0
 }
