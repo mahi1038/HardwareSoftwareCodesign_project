@@ -1,0 +1,7 @@
+margin,runs,saved_pct,front_recall,false_front,source
+0.0,16,81.0,1.0,0,SYNTHETIC
+0.05,25,70.2,1.0,0,SYNTHETIC
+0.1,25,70.2,1.0,0,SYNTHETIC
+0.2,25,70.2,1.0,0,SYNTHETIC
+0.3,25,70.2,1.0,0,SYNTHETIC
+0.5,25,70.2,1.0,0,SYNTHETIC
