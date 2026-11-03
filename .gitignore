@@ -33,3 +33,4 @@ data/*
 
 # Temporary downloads
 *.zip
+results/measurements_synth.csv
