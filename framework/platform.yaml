@@ -1,0 +1,9 @@
+bridge:
+  feature_chars_each: 9          # A: 24 features = 215 chars
+mcu:
+  flash_baseline_bytes: 98372
+  ram_static_bytes: 5644
+  predict_us: {M1_fp32: 1.0, M2_fp32: 17.4, M2_int8: 18.4, M3_fp32: 69.5, M3_int8: 75.2}
+  model_flash_bytes: {M1_fp32: 384, M2_fp32: 1328, M2_int8: 1016, M3_fp32: 4792, M3_int8: 2240}
+linux:
+  rss_growth_factor: 10          # A measured M4: 5.3 MB for a 0.57 MB file

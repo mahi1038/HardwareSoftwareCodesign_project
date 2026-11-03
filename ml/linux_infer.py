@@ -53,19 +53,44 @@ def softmax_max(L):
     return (e.max(axis=1) / e.sum(axis=1)).astype(np.float32)
 
 
+def forest_proba(p, X):
+    """Vectorized tree-ensemble traversal. Thresholds in float64, as in sklearn."""
+    X = np.asarray(X, dtype=np.float32).astype(np.float64)
+    T, n = p["left"].shape[0], len(X)
+    t, r = np.arange(T)[:, None], np.arange(n)[None, :]
+    node = np.zeros((T, n), dtype=np.int64)
+    for _ in range(int(p["depth"])):
+        go = X[r, p["feat"][t, node]] <= p["thr"][t, node]
+        node = np.where(go, p["left"][t, node], p["right"][t, node])
+    return p["val"][t, node].mean(axis=0, dtype=np.float64)          # (n, 6)
+
+
+def _z(p, F):
+    return (np.asarray(F, np.float32) - p["mean"].astype(np.float32)) / p["scale"].astype(np.float32)
+
+
 def load(path, mid):
-    path = Path(path)
-    if mid == "M5":
-        d = np.load(path / "model.npz")
-        return {k: d[k] for k in d.files}
-    import joblib
-    return joblib.load(path / "model.joblib")
+    d = np.load(Path(path) / "model.npz")
+    return {k: d[k] for k in d.files}
+
+
+def predict_features(mid, model, F):
+    """F: (n, 24) float32 stat features (what P3 sends). Valid for M1, M2, M3, M4S."""
+    if mid in ("M1", "M4", "M4S"):
+        P = forest_proba(model, F)
+        return P.argmax(axis=1), P.max(axis=1).astype(np.float32)
+    z = _z(model, F)
+    if mid == "M2":
+        L = z @ model["w"].astype(np.float32).T + model["b"].astype(np.float32)
+    else:
+        h = np.maximum(z @ model["w1"].astype(np.float32) + model["b1"].astype(np.float32), 0)
+        L = h @ model["w2"].astype(np.float32) + model["b2"].astype(np.float32)
+    return L.argmax(axis=1), softmax_max(L)
 
 
 def predict(mid, model, W, rate):
-    """W: (n, N, 3) int16 already windowed/decimated. Returns (labels, confidence)."""
+    """W: (n, N, 3) int16 already windowed/decimated (what P1/P2 send)."""
     if mid == "M5":
         L = cnn_logits(W, model)
         return L.argmax(axis=1), softmax_max(L)
-    P = model.predict_proba(rf_features(W, rate, stat_only=(mid == "M4S")))
-    return P.argmax(axis=1), P.max(axis=1).astype(np.float32)
+    return predict_features(mid, model, rf_features(W, rate, stat_only=(mid != "M4")))

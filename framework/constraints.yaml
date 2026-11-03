@@ -1,0 +1,6 @@
+scenarios:
+  loose:         {objective: maximize_accuracy, min_accuracy: 0.0,  max_latency_ms: 1000, linux_ram_budget_mb: 1000, mcu_ram_budget_kb: 500, mcu_flash_budget_kb: 1900}
+  lat_100:       {objective: maximize_accuracy, min_accuracy: 0.80, max_latency_ms: 100,  linux_ram_budget_mb: 500,  mcu_ram_budget_kb: 500, mcu_flash_budget_kb: 1900}
+  lat_50:        {objective: maximize_accuracy, min_accuracy: 0.80, max_latency_ms: 50,   linux_ram_budget_mb: 500,  mcu_ram_budget_kb: 500, mcu_flash_budget_kb: 1900}
+  lat_10:        {objective: maximize_accuracy, min_accuracy: 0.80, max_latency_ms: 10,   linux_ram_budget_mb: 250,  mcu_ram_budget_kb: 500, mcu_flash_budget_kb: 1900}
+  acc_85_fast:   {objective: minimize_latency,  min_accuracy: 0.85, max_latency_ms: 1000, linux_ram_budget_mb: 500,  mcu_ram_budget_kb: 500, mcu_flash_budget_kb: 1900}
