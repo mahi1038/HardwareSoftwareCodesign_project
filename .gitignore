@@ -28,6 +28,7 @@ Thumbs.db
 
 # Downloaded datasets (keep folder structure)
 data/*
+data/expC_oof.npz
 !data/.gitkeep
 !data/download.py
 

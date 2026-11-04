@@ -1,9 +1,25 @@
+# Measured board facts (source: Person A, docs/bridge_model.md and footprint runs)
 bridge:
-  feature_chars_each: 9          # A: 24 features = 215 chars
+  mcu_to_linux: {fixed_ms: 6.0, per_char_ms: 0.090, max_chars_tested: 4096}
+  linux_to_mcu: {fixed_ms: 6.4, per_char_ms: 0.106, max_chars: 200}   # 239 ok, 240 failed
+  hex_chars_per_int16: 4
+  feature_chars_each: 9      # measured: 24 features = 215 chars
+  label_chars: 8
 mcu:
+  flash_total_bytes: 1966080
   flash_baseline_bytes: 98372
+  test_windows_flash_bytes: 76800
+  ram_total_bytes: 523624
   ram_static_bytes: 5644
+  ram_stack_estimate_bytes: 2048           # ASSUMPTION, stack not measured
+  feature_us: {w128_r50: 330.3, w128_r25: 170.2, w64_r50: 165.6, w64_r25: 82.7}
   predict_us: {M1_fp32: 1.0, M2_fp32: 17.4, M2_int8: 18.4, M3_fp32: 69.5, M3_int8: 75.2}
-  model_flash_bytes: {M1_fp32: 384, M2_fp32: 1328, M2_int8: 1016, M3_fp32: 4792, M3_int8: 2240}
+  model_flash_bytes:
+    M1_fp32: 384
+    M2_fp32: 1328
+    M2_int8: 1016
+    M3_fp32: 4792
+    M3_int8: 2240
 linux:
-  rss_growth_factor: 10          # A measured M4: 5.3 MB for a 0.57 MB file
+  baseline_rss_mb: 180
+  rss_growth_factor: 10     # measured upper bound: M4 5.3 MB for a 0.57 MB file

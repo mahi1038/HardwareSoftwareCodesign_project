@@ -66,6 +66,16 @@ def main():
     if msrc == "SYNTHETIC" or src == "PLACEHOLDER":
         print("\n*** PLUMBING CHECK ONLY: inputs are synthetic/placeholder, errors mean nothing ***")
 
+def fitted_predictions(meas):
+    """meas: DataFrame with config_id, meas_ms. Returns configs with pred_ms using
+    per-partition overheads fitted ONLY on CALIB_CONFIGS, plus the overhead dict."""
+    cfg, _ = predict_all()
+    t = cfg.merge(meas, on="config_id")
+    cal = t[t.config_id.isin(CALIB_CONFIGS)]
+    over = (cal.meas_ms - cal.raw_pred_ms).groupby(cal.partition).median()
+    t["pred_ms"] = t.raw_pred_ms + t.partition.map(over)
+    return t, over
+
 
 if __name__ == "__main__":
     main()

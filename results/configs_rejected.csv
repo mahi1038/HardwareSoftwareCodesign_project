@@ -1,109 +1,109 @@
 config_id,num_id,partition,model,window,rate,precision,n_samples,payload_chars,bridge_ms,mcu_us,lat_lb_ms,accuracy,macro_f1,param_bytes,linux_rss_est_mb,mcu_flash_total_B,mcu_ram_B,status,reason
-P1_M1_w128_r50_int8,1,P1,M1,w128,r50,int8,128,1536,144.24,0.0,144.24,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M1
-P1_M1_w128_r25_int8,3,P1,M1,w128,r25,int8,64,1536,144.24,0.0,144.24,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M1
-P1_M1_w64_r50_int8,5,P1,M1,w64,r50,int8,64,1536,144.24,0.0,144.24,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M1
-P1_M1_w64_r25_int8,7,P1,M1,w64,r25,int8,32,1536,144.24,0.0,144.24,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M1
-P1_M2_w128_r50_int8,9,P1,M2,w128,r50,int8,128,1536,144.24,0.0,144.24,0.8449270444519851,0.8420484007999814,384.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P1_M2_w128_r25_int8,11,P1,M2,w128,r25,int8,64,1536,144.24,0.0,144.24,0.837801153715643,0.8345634756263038,384.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P1_M2_w64_r50_int8,13,P1,M2,w64,r50,int8,64,1536,144.24,0.0,144.24,0.823210044112657,0.8191186443047028,384.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P1_M2_w64_r25_int8,15,P1,M2,w64,r25,int8,32,1536,144.24,0.0,144.24,0.822870715982355,0.8194796785898699,384.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P1_M3_w128_r50_int8,17,P1,M3,w128,r50,int8,128,1536,144.24,0.0,144.24,0.848320325755005,0.8454527651214905,1460.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P1_M3_w128_r25_int8,19,P1,M3,w128,r25,int8,64,1536,144.24,0.0,144.24,0.833050559891415,0.8307913868068368,1460.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P1_M3_w64_r50_int8,21,P1,M3,w64,r50,int8,64,1536,144.24,0.0,144.24,0.827960637936885,0.8250060542920851,1460.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P1_M3_w64_r25_int8,23,P1,M3,w64,r25,int8,32,1536,144.24,0.0,144.24,0.8194774346793349,0.8164438943518664,1460.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P1_M4_w128_r50_int8,25,P1,M4,w128,r50,int8,128,1536,144.24,0.0,144.24,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4
-P1_M4_w128_r25_int8,27,P1,M4,w128,r25,int8,64,1536,144.24,0.0,144.24,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4
-P1_M4_w64_r50_int8,29,P1,M4,w64,r50,int8,64,1536,144.24,0.0,144.24,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4
-P1_M4_w64_r25_int8,31,P1,M4,w64,r25,int8,32,1536,144.24,0.0,144.24,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4
-P1_M4S_w128_r50_int8,33,P1,M4S,w128,r50,int8,128,1536,144.24,0.0,144.24,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4S
-P1_M4S_w128_r25_int8,35,P1,M4S,w128,r25,int8,64,1536,144.24,0.0,144.24,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4S
-P1_M4S_w64_r50_int8,37,P1,M4S,w64,r50,int8,64,1536,144.24,0.0,144.24,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4S
-P1_M4S_w64_r25_int8,39,P1,M4S,w64,r25,int8,32,1536,144.24,0.0,144.24,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4S
-P1_M5_w128_r50_int8,41,P1,M5,w128,r50,int8,128,1536,144.24,0.0,144.24,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M5
-P1_M5_w128_r25_int8,43,P1,M5,w128,r25,int8,64,1536,144.24,0.0,144.24,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M5
-P1_M5_w64_r50_int8,45,P1,M5,w64,r50,int8,64,1536,144.24,0.0,144.24,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M5
-P1_M5_w64_r25_int8,47,P1,M5,w64,r25,int8,32,1536,144.24,0.0,144.24,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M5
-P2_M1_w128_r50_int8,49,P2,M1,w128,r50,int8,128,1536,144.24,0.0,144.24,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M1
-P2_M1_w128_r25_int8,51,P2,M1,w128,r25,int8,64,768,75.12,0.0,75.12,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M1
-P2_M1_w64_r50_int8,53,P2,M1,w64,r50,int8,64,768,75.12,0.0,75.12,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M1
-P2_M1_w64_r25_int8,55,P2,M1,w64,r25,int8,32,384,40.56,0.0,40.56,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M1
-P2_M2_w128_r50_int8,57,P2,M2,w128,r50,int8,128,1536,144.24,0.0,144.24,0.8449270444519851,0.8420484007999814,384.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P2_M2_w128_r25_int8,59,P2,M2,w128,r25,int8,64,768,75.12,0.0,75.12,0.837801153715643,0.8345634756263038,384.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P2_M2_w64_r50_int8,61,P2,M2,w64,r50,int8,64,768,75.12,0.0,75.12,0.823210044112657,0.8191186443047028,384.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P2_M2_w64_r25_int8,63,P2,M2,w64,r25,int8,32,384,40.56,0.0,40.56,0.822870715982355,0.8194796785898699,384.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P2_M3_w128_r50_int8,65,P2,M3,w128,r50,int8,128,1536,144.24,0.0,144.24,0.848320325755005,0.8454527651214905,1460.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P2_M3_w128_r25_int8,67,P2,M3,w128,r25,int8,64,768,75.12,0.0,75.12,0.833050559891415,0.8307913868068368,1460.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P2_M3_w64_r50_int8,69,P2,M3,w64,r50,int8,64,768,75.12,0.0,75.12,0.827960637936885,0.8250060542920851,1460.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P2_M3_w64_r25_int8,71,P2,M3,w64,r25,int8,32,384,40.56,0.0,40.56,0.8194774346793349,0.8164438943518664,1460.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P2_M4_w128_r50_int8,73,P2,M4,w128,r50,int8,128,1536,144.24,0.0,144.24,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4
-P2_M4_w128_r25_int8,75,P2,M4,w128,r25,int8,64,768,75.12,0.0,75.12,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4
-P2_M4_w64_r50_int8,77,P2,M4,w64,r50,int8,64,768,75.12,0.0,75.12,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4
-P2_M4_w64_r25_int8,79,P2,M4,w64,r25,int8,32,384,40.56,0.0,40.56,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4
-P2_M4S_w128_r50_int8,81,P2,M4S,w128,r50,int8,128,1536,144.24,0.0,144.24,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4S
-P2_M4S_w128_r25_int8,83,P2,M4S,w128,r25,int8,64,768,75.12,0.0,75.12,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4S
-P2_M4S_w64_r50_int8,85,P2,M4S,w64,r50,int8,64,768,75.12,0.0,75.12,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4S
-P2_M4S_w64_r25_int8,87,P2,M4S,w64,r25,int8,32,384,40.56,0.0,40.56,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4S
-P2_M5_w128_r50_int8,89,P2,M5,w128,r50,int8,128,1536,144.24,0.0,144.24,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M5
-P2_M5_w128_r25_int8,91,P2,M5,w128,r25,int8,64,768,75.12,0.0,75.12,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M5
-P2_M5_w64_r50_int8,93,P2,M5,w64,r50,int8,64,768,75.12,0.0,75.12,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M5
-P2_M5_w64_r25_int8,95,P2,M5,w64,r25,int8,32,384,40.56,0.0,40.56,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M5
-P3_M1_w128_r50_int8,97,P3,M1,w128,r50,int8,128,168,21.12,330.3,21.45,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M1
-P3_M1_w128_r25_int8,99,P3,M1,w128,r25,int8,64,168,21.12,170.2,21.29,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M1
-P3_M1_w64_r50_int8,101,P3,M1,w64,r50,int8,64,168,21.12,165.6,21.29,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M1
-P3_M1_w64_r25_int8,103,P3,M1,w64,r25,int8,32,168,21.12,82.7,21.2,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M1
-P3_M2_w128_r50_int8,105,P3,M2,w128,r50,int8,128,168,21.12,330.3,21.45,0.8449270444519851,0.8420484007999814,384.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P3_M2_w128_r25_int8,107,P3,M2,w128,r25,int8,64,168,21.12,170.2,21.29,0.837801153715643,0.8345634756263038,384.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P3_M2_w64_r50_int8,109,P3,M2,w64,r50,int8,64,168,21.12,165.6,21.29,0.823210044112657,0.8191186443047028,384.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P3_M2_w64_r25_int8,111,P3,M2,w64,r25,int8,32,168,21.12,82.7,21.2,0.822870715982355,0.8194796785898699,384.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P3_M3_w128_r50_int8,113,P3,M3,w128,r50,int8,128,168,21.12,330.3,21.45,0.848320325755005,0.8454527651214905,1460.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P3_M3_w128_r25_int8,115,P3,M3,w128,r25,int8,64,168,21.12,170.2,21.29,0.833050559891415,0.8307913868068368,1460.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P3_M3_w64_r50_int8,117,P3,M3,w64,r50,int8,64,168,21.12,165.6,21.29,0.827960637936885,0.8250060542920851,1460.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P3_M3_w64_r25_int8,119,P3,M3,w64,r25,int8,32,168,21.12,82.7,21.2,0.8194774346793349,0.8164438943518664,1460.0,180.0,174960,6732,invalid,int8 exists only as MCU C code (needs P4)
-P3_M4_w128_r50_fp32,120,P3,M4,w128,r50,fp32,128,168,21.12,330.3,21.45,0.848320325755005,0.8461148775722082,572155.0,182.3,174960,6732,invalid,M4 needs the raw window on Linux but P3 sends only 24 features
-P3_M4_w128_r50_int8,121,P3,M4,w128,r50,int8,128,168,21.12,330.3,21.45,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4; M4 needs the raw window on Linux but P3 sends only 24 features
-P3_M4_w128_r25_fp32,122,P3,M4,w128,r25,fp32,64,168,21.12,170.2,21.29,0.8527315914489311,0.8509201175132207,1129566.0,184.5,174960,6732,invalid,M4 needs the raw window on Linux but P3 sends only 24 features
-P3_M4_w128_r25_int8,123,P3,M4,w128,r25,int8,64,168,21.12,170.2,21.29,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4; M4 needs the raw window on Linux but P3 sends only 24 features
-P3_M4_w64_r50_fp32,124,P3,M4,w64,r50,fp32,64,168,21.12,165.6,21.29,0.8367831693247371,0.8332642480075378,1322573.0,185.3,174960,6732,invalid,M4 needs the raw window on Linux but P3 sends only 24 features
-P3_M4_w64_r50_int8,125,P3,M4,w64,r50,int8,64,168,21.12,165.6,21.29,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4; M4 needs the raw window on Linux but P3 sends only 24 features
-P3_M4_w64_r25_fp32,126,P3,M4,w64,r25,fp32,32,168,21.12,82.7,21.2,0.837122497455039,0.8332370247393849,623833.0,182.5,174960,6732,invalid,M4 needs the raw window on Linux but P3 sends only 24 features
-P3_M4_w64_r25_int8,127,P3,M4,w64,r25,int8,32,168,21.12,82.7,21.2,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4; M4 needs the raw window on Linux but P3 sends only 24 features
-P3_M4S_w128_r50_int8,129,P3,M4S,w128,r50,int8,128,168,21.12,330.3,21.45,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4S
-P3_M4S_w128_r25_int8,131,P3,M4S,w128,r25,int8,64,168,21.12,170.2,21.29,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4S
-P3_M4S_w64_r50_int8,133,P3,M4S,w64,r50,int8,64,168,21.12,165.6,21.29,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4S
-P3_M4S_w64_r25_int8,135,P3,M4S,w64,r25,int8,32,168,21.12,82.7,21.2,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4S
-P3_M5_w128_r50_fp32,136,P3,M5,w128,r50,fp32,128,168,21.12,330.3,21.45,0.8669833729216152,0.867839971326553,14124.0,180.1,174960,6732,invalid,M5 needs the raw window on Linux but P3 sends only 24 features
-P3_M5_w128_r50_int8,137,P3,M5,w128,r50,int8,128,168,21.12,330.3,21.45,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M5; M5 needs the raw window on Linux but P3 sends only 24 features
-P3_M5_w128_r25_fp32,138,P3,M5,w128,r25,fp32,64,168,21.12,170.2,21.29,0.8588394977943672,0.8586567679967847,14124.0,180.1,174960,6732,invalid,M5 needs the raw window on Linux but P3 sends only 24 features
-P3_M5_w128_r25_int8,139,P3,M5,w128,r25,int8,64,168,21.12,170.2,21.29,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M5; M5 needs the raw window on Linux but P3 sends only 24 features
-P3_M5_w64_r50_fp32,140,P3,M5,w64,r50,fp32,64,168,21.12,165.6,21.29,0.8669833729216152,0.8672925802847322,14124.0,180.1,174960,6732,invalid,M5 needs the raw window on Linux but P3 sends only 24 features
-P3_M5_w64_r50_int8,141,P3,M5,w64,r50,int8,64,168,21.12,165.6,21.29,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M5; M5 needs the raw window on Linux but P3 sends only 24 features
-P3_M5_w64_r25_fp32,142,P3,M5,w64,r25,fp32,32,168,21.12,82.7,21.2,0.8629114353579912,0.8640002890079251,14124.0,180.1,174960,6732,invalid,M5 needs the raw window on Linux but P3 sends only 24 features
-P3_M5_w64_r25_int8,143,P3,M5,w64,r25,int8,32,168,21.12,82.7,21.2,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M5; M5 needs the raw window on Linux but P3 sends only 24 features
-P4_M1_w128_r50_int8,145,P4,M1,w128,r50,int8,128,8,6.72,331.3,7.05,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M1
-P4_M1_w128_r25_int8,147,P4,M1,w128,r25,int8,64,8,6.72,171.2,6.89,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M1
-P4_M1_w64_r50_int8,149,P4,M1,w64,r50,int8,64,8,6.72,166.6,6.89,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M1
-P4_M1_w64_r25_int8,151,P4,M1,w64,r25,int8,32,8,6.72,83.7,6.8,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M1
-P4_M4_w128_r50_fp32,168,P4,M4,w128,r50,fp32,128,8,6.72,330.3,7.05,0.848320325755005,0.8461148775722082,572155.0,180.0,174960,6732,invalid,M4 is Linux-only but P4 classifies on the MCU
-P4_M4_w128_r50_int8,169,P4,M4,w128,r50,int8,128,8,6.72,330.3,7.05,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4; M4 is Linux-only but P4 classifies on the MCU
-P4_M4_w128_r25_fp32,170,P4,M4,w128,r25,fp32,64,8,6.72,170.2,6.89,0.8527315914489311,0.8509201175132207,1129566.0,180.0,174960,6732,invalid,M4 is Linux-only but P4 classifies on the MCU
-P4_M4_w128_r25_int8,171,P4,M4,w128,r25,int8,64,8,6.72,170.2,6.89,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4; M4 is Linux-only but P4 classifies on the MCU
-P4_M4_w64_r50_fp32,172,P4,M4,w64,r50,fp32,64,8,6.72,165.6,6.89,0.8367831693247371,0.8332642480075378,1322573.0,180.0,174960,6732,invalid,M4 is Linux-only but P4 classifies on the MCU
-P4_M4_w64_r50_int8,173,P4,M4,w64,r50,int8,64,8,6.72,165.6,6.89,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4; M4 is Linux-only but P4 classifies on the MCU
-P4_M4_w64_r25_fp32,174,P4,M4,w64,r25,fp32,32,8,6.72,82.7,6.8,0.837122497455039,0.8332370247393849,623833.0,180.0,174960,6732,invalid,M4 is Linux-only but P4 classifies on the MCU
-P4_M4_w64_r25_int8,175,P4,M4,w64,r25,int8,32,8,6.72,82.7,6.8,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4; M4 is Linux-only but P4 classifies on the MCU
-P4_M4S_w128_r50_fp32,176,P4,M4S,w128,r50,fp32,128,8,6.72,330.3,7.05,0.8072616219884629,0.8045217750973386,538016.0,180.0,174960,6732,invalid,M4S is Linux-only but P4 classifies on the MCU
-P4_M4S_w128_r50_int8,177,P4,M4S,w128,r50,int8,128,8,6.72,330.3,7.05,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4S; M4S is Linux-only but P4 classifies on the MCU
-P4_M4S_w128_r25_fp32,178,P4,M4S,w128,r25,fp32,64,8,6.72,170.2,6.89,0.8014930437733289,0.7991818330536402,1189360.0,180.0,174960,6732,invalid,M4S is Linux-only but P4 classifies on the MCU
-P4_M4S_w128_r25_int8,179,P4,M4S,w128,r25,int8,64,8,6.72,170.2,6.89,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4S; M4S is Linux-only but P4 classifies on the MCU
-P4_M4S_w64_r50_fp32,180,P4,M4S,w64,r50,fp32,64,8,6.72,165.6,6.89,0.7953851374278927,0.7930240565314276,952983.0,180.0,174960,6732,invalid,M4S is Linux-only but P4 classifies on the MCU
-P4_M4S_w64_r50_int8,181,P4,M4S,w64,r50,int8,64,8,6.72,165.6,6.89,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4S; M4S is Linux-only but P4 classifies on the MCU
-P4_M4S_w64_r25_fp32,182,P4,M4S,w64,r25,fp32,32,8,6.72,82.7,6.8,0.7845266372582287,0.7824050563928214,1413566.0,180.0,174960,6732,invalid,M4S is Linux-only but P4 classifies on the MCU
-P4_M4S_w64_r25_int8,183,P4,M4S,w64,r25,int8,32,8,6.72,82.7,6.8,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M4S; M4S is Linux-only but P4 classifies on the MCU
-P4_M5_w128_r50_fp32,184,P4,M5,w128,r50,fp32,128,8,6.72,330.3,7.05,0.8669833729216152,0.867839971326553,14124.0,180.0,174960,6732,invalid,M5 is Linux-only but P4 classifies on the MCU
-P4_M5_w128_r50_int8,185,P4,M5,w128,r50,int8,128,8,6.72,330.3,7.05,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M5; M5 is Linux-only but P4 classifies on the MCU
-P4_M5_w128_r25_fp32,186,P4,M5,w128,r25,fp32,64,8,6.72,170.2,6.89,0.8588394977943672,0.8586567679967847,14124.0,180.0,174960,6732,invalid,M5 is Linux-only but P4 classifies on the MCU
-P4_M5_w128_r25_int8,187,P4,M5,w128,r25,int8,64,8,6.72,170.2,6.89,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M5; M5 is Linux-only but P4 classifies on the MCU
-P4_M5_w64_r50_fp32,188,P4,M5,w64,r50,fp32,64,8,6.72,165.6,6.89,0.8669833729216152,0.8672925802847322,14124.0,180.0,174960,6732,invalid,M5 is Linux-only but P4 classifies on the MCU
-P4_M5_w64_r50_int8,189,P4,M5,w64,r50,int8,64,8,6.72,165.6,6.89,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M5; M5 is Linux-only but P4 classifies on the MCU
-P4_M5_w64_r25_fp32,190,P4,M5,w64,r25,fp32,32,8,6.72,82.7,6.8,0.8629114353579912,0.8640002890079251,14124.0,180.0,174960,6732,invalid,M5 is Linux-only but P4 classifies on the MCU
-P4_M5_w64_r25_int8,191,P4,M5,w64,r25,int8,32,8,6.72,82.7,6.8,,,0.0,180.0,174960,6732,invalid,int8 not implemented for M5; M5 is Linux-only but P4 classifies on the MCU
+P1_M1_w128_r50_int8,1,P1,M1,w128,r50,int8,128,1536,144.24,0.0,144.24,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M1
+P1_M1_w128_r25_int8,3,P1,M1,w128,r25,int8,64,1536,144.24,0.0,144.24,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M1
+P1_M1_w64_r50_int8,5,P1,M1,w64,r50,int8,64,1536,144.24,0.0,144.24,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M1
+P1_M1_w64_r25_int8,7,P1,M1,w64,r25,int8,32,1536,144.24,0.0,144.24,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M1
+P1_M2_w128_r50_int8,9,P1,M2,w128,r50,int8,128,1536,144.24,0.0,144.24,0.8449270444519851,0.8420484007999814,384.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P1_M2_w128_r25_int8,11,P1,M2,w128,r25,int8,64,1536,144.24,0.0,144.24,0.837801153715643,0.8345634756263038,384.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P1_M2_w64_r50_int8,13,P1,M2,w64,r50,int8,64,1536,144.24,0.0,144.24,0.823210044112657,0.8191186443047028,384.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P1_M2_w64_r25_int8,15,P1,M2,w64,r25,int8,32,1536,144.24,0.0,144.24,0.822870715982355,0.8194796785898699,384.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P1_M3_w128_r50_int8,17,P1,M3,w128,r50,int8,128,1536,144.24,0.0,144.24,0.848320325755005,0.8454527651214905,1460.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P1_M3_w128_r25_int8,19,P1,M3,w128,r25,int8,64,1536,144.24,0.0,144.24,0.833050559891415,0.8307913868068368,1460.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P1_M3_w64_r50_int8,21,P1,M3,w64,r50,int8,64,1536,144.24,0.0,144.24,0.827960637936885,0.8250060542920851,1460.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P1_M3_w64_r25_int8,23,P1,M3,w64,r25,int8,32,1536,144.24,0.0,144.24,0.8194774346793349,0.8164438943518664,1460.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P1_M4_w128_r50_int8,25,P1,M4,w128,r50,int8,128,1536,144.24,0.0,144.24,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4
+P1_M4_w128_r25_int8,27,P1,M4,w128,r25,int8,64,1536,144.24,0.0,144.24,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4
+P1_M4_w64_r50_int8,29,P1,M4,w64,r50,int8,64,1536,144.24,0.0,144.24,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4
+P1_M4_w64_r25_int8,31,P1,M4,w64,r25,int8,32,1536,144.24,0.0,144.24,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4
+P1_M4S_w128_r50_int8,33,P1,M4S,w128,r50,int8,128,1536,144.24,0.0,144.24,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4S
+P1_M4S_w128_r25_int8,35,P1,M4S,w128,r25,int8,64,1536,144.24,0.0,144.24,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4S
+P1_M4S_w64_r50_int8,37,P1,M4S,w64,r50,int8,64,1536,144.24,0.0,144.24,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4S
+P1_M4S_w64_r25_int8,39,P1,M4S,w64,r25,int8,32,1536,144.24,0.0,144.24,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4S
+P1_M5_w128_r50_int8,41,P1,M5,w128,r50,int8,128,1536,144.24,0.0,144.24,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M5
+P1_M5_w128_r25_int8,43,P1,M5,w128,r25,int8,64,1536,144.24,0.0,144.24,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M5
+P1_M5_w64_r50_int8,45,P1,M5,w64,r50,int8,64,1536,144.24,0.0,144.24,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M5
+P1_M5_w64_r25_int8,47,P1,M5,w64,r25,int8,32,1536,144.24,0.0,144.24,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M5
+P2_M1_w128_r50_int8,49,P2,M1,w128,r50,int8,128,1536,144.24,0.0,144.24,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M1
+P2_M1_w128_r25_int8,51,P2,M1,w128,r25,int8,64,768,75.12,0.0,75.12,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M1
+P2_M1_w64_r50_int8,53,P2,M1,w64,r50,int8,64,768,75.12,0.0,75.12,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M1
+P2_M1_w64_r25_int8,55,P2,M1,w64,r25,int8,32,384,40.56,0.0,40.56,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M1
+P2_M2_w128_r50_int8,57,P2,M2,w128,r50,int8,128,1536,144.24,0.0,144.24,0.8449270444519851,0.8420484007999814,384.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P2_M2_w128_r25_int8,59,P2,M2,w128,r25,int8,64,768,75.12,0.0,75.12,0.837801153715643,0.8345634756263038,384.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P2_M2_w64_r50_int8,61,P2,M2,w64,r50,int8,64,768,75.12,0.0,75.12,0.823210044112657,0.8191186443047028,384.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P2_M2_w64_r25_int8,63,P2,M2,w64,r25,int8,32,384,40.56,0.0,40.56,0.822870715982355,0.8194796785898699,384.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P2_M3_w128_r50_int8,65,P2,M3,w128,r50,int8,128,1536,144.24,0.0,144.24,0.848320325755005,0.8454527651214905,1460.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P2_M3_w128_r25_int8,67,P2,M3,w128,r25,int8,64,768,75.12,0.0,75.12,0.833050559891415,0.8307913868068368,1460.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P2_M3_w64_r50_int8,69,P2,M3,w64,r50,int8,64,768,75.12,0.0,75.12,0.827960637936885,0.8250060542920851,1460.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P2_M3_w64_r25_int8,71,P2,M3,w64,r25,int8,32,384,40.56,0.0,40.56,0.8194774346793349,0.8164438943518664,1460.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P2_M4_w128_r50_int8,73,P2,M4,w128,r50,int8,128,1536,144.24,0.0,144.24,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4
+P2_M4_w128_r25_int8,75,P2,M4,w128,r25,int8,64,768,75.12,0.0,75.12,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4
+P2_M4_w64_r50_int8,77,P2,M4,w64,r50,int8,64,768,75.12,0.0,75.12,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4
+P2_M4_w64_r25_int8,79,P2,M4,w64,r25,int8,32,384,40.56,0.0,40.56,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4
+P2_M4S_w128_r50_int8,81,P2,M4S,w128,r50,int8,128,1536,144.24,0.0,144.24,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4S
+P2_M4S_w128_r25_int8,83,P2,M4S,w128,r25,int8,64,768,75.12,0.0,75.12,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4S
+P2_M4S_w64_r50_int8,85,P2,M4S,w64,r50,int8,64,768,75.12,0.0,75.12,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4S
+P2_M4S_w64_r25_int8,87,P2,M4S,w64,r25,int8,32,384,40.56,0.0,40.56,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4S
+P2_M5_w128_r50_int8,89,P2,M5,w128,r50,int8,128,1536,144.24,0.0,144.24,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M5
+P2_M5_w128_r25_int8,91,P2,M5,w128,r25,int8,64,768,75.12,0.0,75.12,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M5
+P2_M5_w64_r50_int8,93,P2,M5,w64,r50,int8,64,768,75.12,0.0,75.12,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M5
+P2_M5_w64_r25_int8,95,P2,M5,w64,r25,int8,32,384,40.56,0.0,40.56,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M5
+P3_M1_w128_r50_int8,97,P3,M1,w128,r50,int8,128,216,25.44,330.3,25.77,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M1
+P3_M1_w128_r25_int8,99,P3,M1,w128,r25,int8,64,216,25.44,170.2,25.61,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M1
+P3_M1_w64_r50_int8,101,P3,M1,w64,r50,int8,64,216,25.44,165.6,25.61,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M1
+P3_M1_w64_r25_int8,103,P3,M1,w64,r25,int8,32,216,25.44,82.7,25.52,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M1
+P3_M2_w128_r50_int8,105,P3,M2,w128,r50,int8,128,216,25.44,330.3,25.77,0.8449270444519851,0.8420484007999814,384.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P3_M2_w128_r25_int8,107,P3,M2,w128,r25,int8,64,216,25.44,170.2,25.61,0.837801153715643,0.8345634756263038,384.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P3_M2_w64_r50_int8,109,P3,M2,w64,r50,int8,64,216,25.44,165.6,25.61,0.823210044112657,0.8191186443047028,384.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P3_M2_w64_r25_int8,111,P3,M2,w64,r25,int8,32,216,25.44,82.7,25.52,0.822870715982355,0.8194796785898699,384.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P3_M3_w128_r50_int8,113,P3,M3,w128,r50,int8,128,216,25.44,330.3,25.77,0.848320325755005,0.8454527651214905,1460.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P3_M3_w128_r25_int8,115,P3,M3,w128,r25,int8,64,216,25.44,170.2,25.61,0.833050559891415,0.8307913868068368,1460.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P3_M3_w64_r50_int8,117,P3,M3,w64,r50,int8,64,216,25.44,165.6,25.61,0.827960637936885,0.8250060542920851,1460.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P3_M3_w64_r25_int8,119,P3,M3,w64,r25,int8,32,216,25.44,82.7,25.52,0.8194774346793349,0.8164438943518664,1460.0,180.0,175172,7692,invalid,int8 exists only as MCU C code (needs P4)
+P3_M4_w128_r50_fp32,120,P3,M4,w128,r50,fp32,128,216,25.44,330.3,25.77,0.848320325755005,0.8461148775722082,572155.0,185.7,175172,7692,invalid,M4 needs the raw window on Linux but P3 sends only 24 features
+P3_M4_w128_r50_int8,121,P3,M4,w128,r50,int8,128,216,25.44,330.3,25.77,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4; M4 needs the raw window on Linux but P3 sends only 24 features
+P3_M4_w128_r25_fp32,122,P3,M4,w128,r25,fp32,64,216,25.44,170.2,25.61,0.8527315914489311,0.8509201175132207,1129566.0,191.3,175172,7692,invalid,M4 needs the raw window on Linux but P3 sends only 24 features
+P3_M4_w128_r25_int8,123,P3,M4,w128,r25,int8,64,216,25.44,170.2,25.61,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4; M4 needs the raw window on Linux but P3 sends only 24 features
+P3_M4_w64_r50_fp32,124,P3,M4,w64,r50,fp32,64,216,25.44,165.6,25.61,0.8367831693247371,0.8332642480075378,1322573.0,193.2,175172,7692,invalid,M4 needs the raw window on Linux but P3 sends only 24 features
+P3_M4_w64_r50_int8,125,P3,M4,w64,r50,int8,64,216,25.44,165.6,25.61,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4; M4 needs the raw window on Linux but P3 sends only 24 features
+P3_M4_w64_r25_fp32,126,P3,M4,w64,r25,fp32,32,216,25.44,82.7,25.52,0.837122497455039,0.8332370247393849,623833.0,186.2,175172,7692,invalid,M4 needs the raw window on Linux but P3 sends only 24 features
+P3_M4_w64_r25_int8,127,P3,M4,w64,r25,int8,32,216,25.44,82.7,25.52,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4; M4 needs the raw window on Linux but P3 sends only 24 features
+P3_M4S_w128_r50_int8,129,P3,M4S,w128,r50,int8,128,216,25.44,330.3,25.77,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4S
+P3_M4S_w128_r25_int8,131,P3,M4S,w128,r25,int8,64,216,25.44,170.2,25.61,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4S
+P3_M4S_w64_r50_int8,133,P3,M4S,w64,r50,int8,64,216,25.44,165.6,25.61,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4S
+P3_M4S_w64_r25_int8,135,P3,M4S,w64,r25,int8,32,216,25.44,82.7,25.52,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4S
+P3_M5_w128_r50_fp32,136,P3,M5,w128,r50,fp32,128,216,25.44,330.3,25.77,0.8669833729216152,0.867839971326553,14124.0,180.1,175172,7692,invalid,M5 needs the raw window on Linux but P3 sends only 24 features
+P3_M5_w128_r50_int8,137,P3,M5,w128,r50,int8,128,216,25.44,330.3,25.77,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M5; M5 needs the raw window on Linux but P3 sends only 24 features
+P3_M5_w128_r25_fp32,138,P3,M5,w128,r25,fp32,64,216,25.44,170.2,25.61,0.8588394977943672,0.8586567679967847,14124.0,180.1,175172,7692,invalid,M5 needs the raw window on Linux but P3 sends only 24 features
+P3_M5_w128_r25_int8,139,P3,M5,w128,r25,int8,64,216,25.44,170.2,25.61,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M5; M5 needs the raw window on Linux but P3 sends only 24 features
+P3_M5_w64_r50_fp32,140,P3,M5,w64,r50,fp32,64,216,25.44,165.6,25.61,0.8669833729216152,0.8672925802847322,14124.0,180.1,175172,7692,invalid,M5 needs the raw window on Linux but P3 sends only 24 features
+P3_M5_w64_r50_int8,141,P3,M5,w64,r50,int8,64,216,25.44,165.6,25.61,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M5; M5 needs the raw window on Linux but P3 sends only 24 features
+P3_M5_w64_r25_fp32,142,P3,M5,w64,r25,fp32,32,216,25.44,82.7,25.52,0.8629114353579912,0.8640002890079251,14124.0,180.1,175172,7692,invalid,M5 needs the raw window on Linux but P3 sends only 24 features
+P3_M5_w64_r25_int8,143,P3,M5,w64,r25,int8,32,216,25.44,82.7,25.52,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M5; M5 needs the raw window on Linux but P3 sends only 24 features
+P4_M1_w128_r50_int8,145,P4,M1,w128,r50,int8,128,8,6.72,330.3,7.05,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M1
+P4_M1_w128_r25_int8,147,P4,M1,w128,r25,int8,64,8,6.72,170.2,6.89,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M1
+P4_M1_w64_r50_int8,149,P4,M1,w64,r50,int8,64,8,6.72,165.6,6.89,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M1
+P4_M1_w64_r25_int8,151,P4,M1,w64,r25,int8,32,8,6.72,82.7,6.8,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M1
+P4_M4_w128_r50_fp32,168,P4,M4,w128,r50,fp32,128,8,6.72,330.3,7.05,0.848320325755005,0.8461148775722082,572155.0,180.0,175172,7692,invalid,M4 is Linux-only but P4 classifies on the MCU
+P4_M4_w128_r50_int8,169,P4,M4,w128,r50,int8,128,8,6.72,330.3,7.05,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4; M4 is Linux-only but P4 classifies on the MCU
+P4_M4_w128_r25_fp32,170,P4,M4,w128,r25,fp32,64,8,6.72,170.2,6.89,0.8527315914489311,0.8509201175132207,1129566.0,180.0,175172,7692,invalid,M4 is Linux-only but P4 classifies on the MCU
+P4_M4_w128_r25_int8,171,P4,M4,w128,r25,int8,64,8,6.72,170.2,6.89,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4; M4 is Linux-only but P4 classifies on the MCU
+P4_M4_w64_r50_fp32,172,P4,M4,w64,r50,fp32,64,8,6.72,165.6,6.89,0.8367831693247371,0.8332642480075378,1322573.0,180.0,175172,7692,invalid,M4 is Linux-only but P4 classifies on the MCU
+P4_M4_w64_r50_int8,173,P4,M4,w64,r50,int8,64,8,6.72,165.6,6.89,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4; M4 is Linux-only but P4 classifies on the MCU
+P4_M4_w64_r25_fp32,174,P4,M4,w64,r25,fp32,32,8,6.72,82.7,6.8,0.837122497455039,0.8332370247393849,623833.0,180.0,175172,7692,invalid,M4 is Linux-only but P4 classifies on the MCU
+P4_M4_w64_r25_int8,175,P4,M4,w64,r25,int8,32,8,6.72,82.7,6.8,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4; M4 is Linux-only but P4 classifies on the MCU
+P4_M4S_w128_r50_fp32,176,P4,M4S,w128,r50,fp32,128,8,6.72,330.3,7.05,0.8072616219884629,0.8045217750973386,538016.0,180.0,175172,7692,invalid,M4S is Linux-only but P4 classifies on the MCU
+P4_M4S_w128_r50_int8,177,P4,M4S,w128,r50,int8,128,8,6.72,330.3,7.05,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4S; M4S is Linux-only but P4 classifies on the MCU
+P4_M4S_w128_r25_fp32,178,P4,M4S,w128,r25,fp32,64,8,6.72,170.2,6.89,0.8014930437733289,0.7991818330536402,1189360.0,180.0,175172,7692,invalid,M4S is Linux-only but P4 classifies on the MCU
+P4_M4S_w128_r25_int8,179,P4,M4S,w128,r25,int8,64,8,6.72,170.2,6.89,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4S; M4S is Linux-only but P4 classifies on the MCU
+P4_M4S_w64_r50_fp32,180,P4,M4S,w64,r50,fp32,64,8,6.72,165.6,6.89,0.7953851374278927,0.7930240565314276,952983.0,180.0,175172,7692,invalid,M4S is Linux-only but P4 classifies on the MCU
+P4_M4S_w64_r50_int8,181,P4,M4S,w64,r50,int8,64,8,6.72,165.6,6.89,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4S; M4S is Linux-only but P4 classifies on the MCU
+P4_M4S_w64_r25_fp32,182,P4,M4S,w64,r25,fp32,32,8,6.72,82.7,6.8,0.7845266372582287,0.7824050563928214,1413566.0,180.0,175172,7692,invalid,M4S is Linux-only but P4 classifies on the MCU
+P4_M4S_w64_r25_int8,183,P4,M4S,w64,r25,int8,32,8,6.72,82.7,6.8,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M4S; M4S is Linux-only but P4 classifies on the MCU
+P4_M5_w128_r50_fp32,184,P4,M5,w128,r50,fp32,128,8,6.72,330.3,7.05,0.8669833729216152,0.867839971326553,14124.0,180.0,175172,7692,invalid,M5 is Linux-only but P4 classifies on the MCU
+P4_M5_w128_r50_int8,185,P4,M5,w128,r50,int8,128,8,6.72,330.3,7.05,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M5; M5 is Linux-only but P4 classifies on the MCU
+P4_M5_w128_r25_fp32,186,P4,M5,w128,r25,fp32,64,8,6.72,170.2,6.89,0.8588394977943672,0.8586567679967847,14124.0,180.0,175172,7692,invalid,M5 is Linux-only but P4 classifies on the MCU
+P4_M5_w128_r25_int8,187,P4,M5,w128,r25,int8,64,8,6.72,170.2,6.89,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M5; M5 is Linux-only but P4 classifies on the MCU
+P4_M5_w64_r50_fp32,188,P4,M5,w64,r50,fp32,64,8,6.72,165.6,6.89,0.8669833729216152,0.8672925802847322,14124.0,180.0,175172,7692,invalid,M5 is Linux-only but P4 classifies on the MCU
+P4_M5_w64_r50_int8,189,P4,M5,w64,r50,int8,64,8,6.72,165.6,6.89,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M5; M5 is Linux-only but P4 classifies on the MCU
+P4_M5_w64_r25_fp32,190,P4,M5,w64,r25,fp32,32,8,6.72,82.7,6.8,0.8629114353579912,0.8640002890079251,14124.0,180.0,175172,7692,invalid,M5 is Linux-only but P4 classifies on the MCU
+P4_M5_w64_r25_int8,191,P4,M5,w64,r25,int8,32,8,6.72,82.7,6.8,,,0.0,180.0,175172,7692,invalid,int8 not implemented for M5; M5 is Linux-only but P4 classifies on the MCU
