@@ -35,3 +35,23 @@ data/expC_oof.npz
 # Temporary downloads
 *.zip
 results/measurements_synth.csv
+board/sketch_all/model_M1_w64_r25_fp32.h
+board/sketch_all/model_M1_w64_r50_fp32.h
+board/sketch_all/model_M1_w128_r25_fp32.h
+board/sketch_all/model_M1_w128_r50_fp32.h
+board/sketch_all/model_M2_w64_r25_fp32.h
+board/sketch_all/model_M2_w64_r25_int8.h
+board/sketch_all/model_M2_w64_r50_fp32.h
+board/sketch_all/model_M2_w64_r50_int8.h
+board/sketch_all/model_M2_w128_r25_fp32.h
+board/sketch_all/model_M2_w128_r25_int8.h
+board/sketch_all/model_M2_w128_r50_fp32.h
+board/sketch_all/model_M2_w128_r50_int8.h
+board/sketch_all/model_M3_w64_r25_fp32.h
+board/sketch_all/model_M3_w64_r25_int8.h
+board/sketch_all/model_M3_w64_r50_fp32.h
+board/sketch_all/model_M3_w64_r50_int8.h
+board/sketch_all/model_M3_w128_r25_fp32.h
+board/sketch_all/model_M3_w128_r25_int8.h
+board/sketch_all/model_M3_w128_r50_fp32.h
+board/sketch_all/model_M3_w128_r50_int8.h
