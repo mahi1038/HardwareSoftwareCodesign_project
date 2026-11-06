@@ -1,0 +1,3 @@
+config,esc_rate,python_test_esc,acc_board100,measured_ms,estimated_ms,diff_pct,kept_ms,kept_vs_P4_ms,esc_ms,esc_vs_sum_ms
+ADAPT_M3_M5_w128_r50_th0.65,0.14,0.103,0.93,28.4,28.4,0.0,7.5,0.02,156.9,-0.05
+ADAPT_M3_M5_w64_r25_th0.80,0.33,0.2,0.88,21.8,22.3,-2.2,7.1,-0.39,51.8,-0.7
