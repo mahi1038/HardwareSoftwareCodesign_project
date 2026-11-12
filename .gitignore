@@ -55,3 +55,5 @@ board/sketch_all/model_M3_w128_r25_fp32.h
 board/sketch_all/model_M3_w128_r25_int8.h
 board/sketch_all/model_M3_w128_r50_fp32.h
 board/sketch_all/model_M3_w128_r50_int8.h
+
+.figvenv/
